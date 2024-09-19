@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="Screenshot 2024-02-20 232455.png">
+</head>
+<body>
+    <div id="name">ZERO-X</div>
+    <label for="name" class="name1">PLAYER- X :</label>
+    <input type="text" placeholder="ENTER PLAYER X NAME:" class="name">
+    <label for="name" class="name1">PLAYER- 0 :</label>
+    <input type="text" placeholder="ENTER PLAYER 0 NAME:" class="name">
+    <div id="win" ></div>
+    <div id="container">
+        
+        <div class="row1" id="b1" onclick="clk_1(); main();"></div>
+        <div class="row1" id="b2" onclick="clk_2(); main();"></div>
+        <div class="row1" id="b3" onclick="clk_3(); main();"></div>
+    
+        <div class="row2" id="b4" onclick="clk_4(); main();"></div>
+        <div class="row2" id="b5" onclick="clk_5(); main();"></div>
+        <div class="row2" id="b6" onclick="clk_6(); main();"></div>
+        
+        <div class="row3" id="b7" onclick="clk_7(); main();"></div>
+        <div class="row3" id="b8" onclick="clk_8(); main();"></div>
+        <div class="row3" id="b9" onclick="clk_9(); main();"></div>
+        
+    </div>
+
+    <div>
+        <button id="btn" type="reset" onclick="playAgain()">Play Again!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

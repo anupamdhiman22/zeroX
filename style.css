@@ -1,0 +1,131 @@
+@font-face {
+    font-family: ROG Fonts;
+    src: url(ROGFonts-Regular.otf);
+  }
+  
+  body {
+      background-color: #181135;
+  
+  }
+  
+  #container {
+  
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 250px;
+      max-height: auto;
+      margin: 25px auto;
+      border: 5px solid rgb(41, 91, 207);
+      border-radius: 15px;
+      background: #3f2c8a;
+      box-shadow: inset 27px -27px 54px #362575,
+                  inset -27px 27px 54px #48339f;
+  }
+  
+  .row1,
+  .row2,
+  .row3 {
+      height: 80px;
+      background-color: #3f2c8a;
+      border: 2px solid #dbdfac;
+      cursor: pointer;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 50px;
+      color: #eff3bb;
+      font-family: ROG Fonts;
+      border-radius: 10px;
+      background: #3f2c8a;
+      box-shadow: inset 5px -5px 4px #362575,
+                  inset -5px 5px 4px #48339f;
+  
+  }
+  
+  #name {
+      font-size: 50px;
+      font-weight: bold;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: ROG Fonts;
+      padding-top: 8px;
+      color: #ccd841;
+      
+  }
+  
+  #btn {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ccd841;
+      font-family: ROG Fonts;
+      background-color: #3f2c8a;
+      border-radius: 15px;
+      height: 3rem;
+      width: auto;
+      margin: 0 auto;
+      display: block;
+  }
+  
+  #btn:hover {
+      background-color: #181135
+  }
+  
+  #win {
+      font-size: 20px;
+      font-weight: bold;
+      color: #eaff04;
+      font-family: ROG Fonts;
+      background-color: #3f2c8a;
+      border-radius: 15px;
+      height: 2rem;
+      width: 15rem;
+      margin: 0 auto;
+      display: block;
+      margin-top: 25px;
+      text-align: center;
+      
+  
+  }
+  
+  .name {
+      font-size: 15px;
+      color: #e0fd06;
+      font-family: ROG Fonts;
+      background-color: #352e53;
+      border: 2px solid blueviolet;
+      border-radius: 15px;
+      height: 1.5rem;
+      width: 15rem;
+      margin: 0 auto;
+      display: block;
+      margin-top: 10px;
+      text-align: center;
+  }
+  
+  .name1 {
+      font-size: 15px;
+      color: #eaff04;
+      font-family: ROG Fonts;
+      background-color: #3f2c8a;
+      border-radius: 15px;
+      height: 1.5rem;
+      width: 9rem;
+      margin: 0 auto;
+      display: block;
+      margin-top: 10px;
+      text-align: center;
+  
+  }
